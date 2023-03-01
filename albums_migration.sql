@@ -6,7 +6,6 @@ CREATE TABLE quotes (
                         artist VARCHAR(255),
                         album_name  VARCHAR(255),
                         release_date INTEGER,
-                        sales DOUBLE PRECISION NOT NULL,
-                        genre VARCHAR(50) NOT NULL,
-                        PRIMARY KEY (id)
+                        sales DOUBLE PRECISION,
+                        genre VARCHAR(255),
 );
