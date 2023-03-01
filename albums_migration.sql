@@ -8,4 +8,5 @@ CREATE TABLE quotes (
                         release_date INTEGER,
                         sales DOUBLE PRECISION,
                         genre VARCHAR(255),
+                        PRIMARY KEY (id)
 );
