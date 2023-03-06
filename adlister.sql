@@ -5,3 +5,9 @@ from adlister_ads
 where adlister_ads.title = 'iphone'
 
 
+SELECT cat.name
+from adlister_ads as ads
+         inner join adlister_categories as cat
+where ads.title = 'iphone'
+
+
