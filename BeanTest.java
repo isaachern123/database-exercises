@@ -12,16 +12,14 @@ public class BeanTest {
 
         System.out.println(myAuthor);
 
-        Quotes myQuote = new Quotes("this is my quote");
+        Quote myQuote = new Quote("this is my quote");
 
-
-        myAuthor.setQuote(myQuote);
 
         System.out.println(myAuthor);
 
-        Quotes myOtherQuote = new Quotes("this is my other quote");
+        Quote myOtherQuote = new Quote("this is my other quote");
 
-        ArrayList<Quotes> quotes = new ArrayList<>();
+        ArrayList<Quote> quotes = new ArrayList<>();
 
         quotes.add(myQuote);
         quotes.add(myOtherQuote);
