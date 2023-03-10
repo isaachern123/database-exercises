@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @ToString
-public class Quotes implements Serializable {
+public class Quote implements Serializable {
 
     private String content;
 
