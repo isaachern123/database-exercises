@@ -31,3 +31,6 @@ from adlister_users as user
         inner join adlister_ads ads on user.id = ads.user_id
 where email = 'isaac@gmail.com'
 
+
+
+
